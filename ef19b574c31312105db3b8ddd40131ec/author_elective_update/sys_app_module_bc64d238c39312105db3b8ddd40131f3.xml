@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Departments">7ee10630c35312105db3b8ddd40131ec</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1589793_new_empl_departments</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1589793_new_empl.employee_onboarding_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 08:47:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc64d238c39312105db3b8ddd40131f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_update_name>sys_app_module_bc64d238c39312105db3b8ddd40131f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 08:47:18</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</application>
+        <file_path/>
+        <instance_id>a2ff887edb62bd50caf99027c5961903</instance_id>
+        <instance_name>dev218096</instance_name>
+        <name>sys_app_module_bc64d238c39312105db3b8ddd40131f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Departments">7ee10630c35312105db3b8ddd40131ec</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1589793_new_empl_departments</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1589793_new_empl.employee_onboarding_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-22 08:47:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bc64d238c39312105db3b8ddd40131f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package><sys_policy/><sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope><sys_update_name>sys_app_module_bc64d238c39312105db3b8ddd40131f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-22 08:47:18</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1319781278</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>9a3a3138c31312105db3b8ddd4013144</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 08:47:18</sys_created_on>
+        <sys_id>9e84de38c39312105db3b8ddd40131cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948d31cb940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 08:47:18</sys_updated_on>
+        <type>Module</type>
+        <update_guid>9284de3855931210c94859dd855e91cf</update_guid>
+        <update_guid_history>9284de3855931210c94859dd855e91cf:-1319781278</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">462d404dc3db12105db3b8ddd4013115</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 17:34:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>462344a72a9a4800900a774ae1926a09</sys_id>
+        <sys_metadata>bc64d238c39312105db3b8ddd40131f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_scope_delete display_value="">09b64f21d48d4e169e20cdb46a21bd79</sys_scope_delete>
+        <sys_update_name>sys_app_module_bc64d238c39312105db3b8ddd40131f3</sys_update_name>
+        <sys_update_version display_value="sys_app_module_bc64d238c39312105db3b8ddd40131f3">9e84de38c39312105db3b8ddd40131cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 17:34:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

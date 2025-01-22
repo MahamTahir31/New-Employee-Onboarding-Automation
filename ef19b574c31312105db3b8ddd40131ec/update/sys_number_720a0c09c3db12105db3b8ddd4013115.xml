@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1589793_new_empl_department_head">x_1589793_new_empl_department_head</category>
+        <maximum_digits>6</maximum_digits>
+        <number>1000</number>
+        <prefix>DEPHD</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 17:20:42</sys_created_on>
+        <sys_id>720a0c09c3db12105db3b8ddd4013115</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEPHD</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_update_name>sys_number_720a0c09c3db12105db3b8ddd4013115</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 17:20:42</sys_updated_on>
+    </sys_number>
+</record_update>

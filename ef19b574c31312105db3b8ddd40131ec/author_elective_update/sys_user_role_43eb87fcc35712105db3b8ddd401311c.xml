@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1589793_new_empl.system_accounts_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>system_accounts_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 12:49:17</sys_created_on>
+        <sys_id>43eb87fcc35712105db3b8ddd401311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1589793_new_empl.system_accounts_user</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_update_name>sys_user_role_43eb87fcc35712105db3b8ddd401311c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 12:49:17</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</application>
+        <file_path/>
+        <instance_id>a2ff887edb62bd50caf99027c5961903</instance_id>
+        <instance_name>dev218096</instance_name>
+        <name>sys_user_role_43eb87fcc35712105db3b8ddd401311c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1589793_new_empl.system_accounts_user</name><scoped_admin>false</scoped_admin><suffix>system_accounts_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-22 12:49:17</sys_created_on><sys_id>43eb87fcc35712105db3b8ddd401311c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1589793_new_empl.system_accounts_user</sys_name><sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package><sys_policy/><sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope><sys_update_name>sys_user_role_43eb87fcc35712105db3b8ddd401311c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-22 12:49:17</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-976072744</payload_hash>
+        <record_name>x_1589793_new_empl.system_accounts_user</record_name>
+        <reverted_from/>
+        <source>9a3a3138c31312105db3b8ddd4013144</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 12:49:17</sys_created_on>
+        <sys_id>8feb877cc39712105db3b8ddd401318c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948e0f57540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 12:49:17</sys_updated_on>
+        <type>Role</type>
+        <update_guid>03eb877c2d97121040926bb714855a8c</update_guid>
+        <update_guid_history>03eb877c2d97121040926bb714855a8c:-976072744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1589793_new_empl.system_accounts_user">694c1f30c31b12105db3b8ddd4013168</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:00:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>9b4cbb7f4e544744b27cd1c6956f9390</sys_id>
+        <sys_metadata>43eb87fcc35712105db3b8ddd401311c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1589793_new_empl.system_accounts_user</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_scope_delete display_value="">09b64f21d48d4e169e20cdb46a21bd79</sys_scope_delete>
+        <sys_update_name>sys_user_role_43eb87fcc35712105db3b8ddd401311c</sys_update_name>
+        <sys_update_version display_value="sys_user_role_43eb87fcc35712105db3b8ddd401311c">8feb877cc39712105db3b8ddd401318c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:00:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

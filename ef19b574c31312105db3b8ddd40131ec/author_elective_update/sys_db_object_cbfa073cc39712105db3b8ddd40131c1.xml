@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Automatic Accounts</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1589793_new_empl_system_accounts</name>
+        <number_ref display_value="ACC">e3ebc77cc39712105db3b8ddd401313b</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 12:49:18</sys_created_on>
+        <sys_id>cbfa073cc39712105db3b8ddd40131c1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Automatic Accounts</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_update_name>sys_db_object_cbfa073cc39712105db3b8ddd40131c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 13:31:39</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1589793_new_empl.admin" name="x_1589793_new_empl.admin">f769f5b4c31312105db3b8ddd4013101</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</application>
+        <file_path/>
+        <instance_id>a2ff887edb62bd50caf99027c5961903</instance_id>
+        <instance_name>dev218096</instance_name>
+        <name>sys_db_object_cbfa073cc39712105db3b8ddd40131c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Automatic Accounts</label><live_feed_enabled>false</live_feed_enabled><name>x_1589793_new_empl_system_accounts</name><number_ref display_value="ACC">e3ebc77cc39712105db3b8ddd401313b</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-22 12:49:18</sys_created_on><sys_id>cbfa073cc39712105db3b8ddd40131c1</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Automatic Accounts</sys_name><sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package><sys_policy/><sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope><sys_update_name>sys_db_object_cbfa073cc39712105db3b8ddd40131c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-22 13:31:39</sys_updated_on><update_access>false</update_access><user_role display_value="x_1589793_new_empl.admin" name="x_1589793_new_empl.admin">f769f5b4c31312105db3b8ddd4013101</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-858039201</payload_hash>
+        <record_name>Automatic Accounts</record_name>
+        <reverted_from/>
+        <source>9a3a3138c31312105db3b8ddd4013144</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 13:31:40</sys_created_on>
+        <sys_id>37955f78c3d712105db3b8ddd4013159</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948e3623ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 13:31:40</sys_updated_on>
+        <type>Table</type>
+        <update_guid>3b955f78d2d71210c1c39eb20364c258</update_guid>
+        <update_guid_history>3b955f78d2d71210c1c39eb20364c258:-858039201,dd8c87bcd297121049a96d8c33ecb1b0:-673890296,4e2c0f7c3f9712100862548f9b69cbfb:255563904,2febc77c09971210a3eeacc75de34a41:-171649084,abebc77cf0971210c777feccc5fcff39:1569938562</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:00:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>00190a2dc5cf41a680005ad66e2b5531</sys_id>
+        <sys_metadata>cbfa073cc39712105db3b8ddd40131c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automatic Accounts</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_scope_delete display_value="">09b64f21d48d4e169e20cdb46a21bd79</sys_scope_delete>
+        <sys_update_name>sys_db_object_cbfa073cc39712105db3b8ddd40131c1</sys_update_name>
+        <sys_update_version display_value="sys_db_object_cbfa073cc39712105db3b8ddd40131c1">37955f78c3d712105db3b8ddd4013159</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:00:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

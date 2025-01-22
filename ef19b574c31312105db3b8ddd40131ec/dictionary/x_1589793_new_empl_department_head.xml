@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a9f80c81c3db12105db3b8ddd401311e" label="Department Head" max_length="40" name="x_1589793_new_empl_department_head" type="collection">
+        <element display="true" label="Department Head" max_length="40" name="department_head" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+    </element>
+</database>

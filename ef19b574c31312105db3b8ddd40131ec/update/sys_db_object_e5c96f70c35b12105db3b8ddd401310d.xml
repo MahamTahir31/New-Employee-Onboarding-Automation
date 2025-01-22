@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Automatic Accounts</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1589793_new_empl_automatic_accounts</name>
+        <number_ref display_value="AUT">4d5b2334c35b12105db3b8ddd4013152</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 15:00:26</sys_created_on>
+        <sys_id>e5c96f70c35b12105db3b8ddd401310d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Automatic Accounts</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_update_name>sys_db_object_e5c96f70c35b12105db3b8ddd401310d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 15:06:30</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_1589793_new_empl.automatic_accounts_user" name="x_1589793_new_empl.automatic_accounts_user">00f923b0c35b12105db3b8ddd40131d9</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

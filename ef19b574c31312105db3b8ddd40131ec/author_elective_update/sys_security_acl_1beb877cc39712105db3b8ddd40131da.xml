@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on x_1589793_new_empl_system_accounts</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1589793_new_empl_system_accounts</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 12:49:18</sys_created_on>
+        <sys_id>1beb877cc39712105db3b8ddd40131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1589793_new_empl_system_accounts</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_update_name>sys_security_acl_1beb877cc39712105db3b8ddd40131da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 12:49:18</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</application>
+        <file_path/>
+        <instance_id>a2ff887edb62bd50caf99027c5961903</instance_id>
+        <instance_name>dev218096</instance_name>
+        <name>sys_security_acl_1beb877cc39712105db3b8ddd40131da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on x_1589793_new_empl_system_accounts</description><local_or_existing>Local</local_or_existing><name>x_1589793_new_empl_system_accounts</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-22 12:49:18</sys_created_on><sys_id>1beb877cc39712105db3b8ddd40131da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1589793_new_empl_system_accounts</sys_name><sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package><sys_policy/><sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope><sys_update_name>sys_security_acl_1beb877cc39712105db3b8ddd40131da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-22 12:49:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1262479745</payload_hash>
+        <record_name>x_1589793_new_empl_system_accounts</record_name>
+        <reverted_from/>
+        <source>9a3a3138c31312105db3b8ddd4013144</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 12:49:18</sys_created_on>
+        <sys_id>53eb877cc39712105db3b8ddd40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948e0f5b050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 12:49:18</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>17eb877c4697121046127248df0830de</update_guid>
+        <update_guid_history>17eb877c4697121046127248df0830de:1262479745</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 14:00:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1bf7b17f738d4b9e88a28162c9944984</sys_id>
+        <sys_metadata>1beb877cc39712105db3b8ddd40131da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1589793_new_empl_system_accounts</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_parent display_value="">1beb877cc39712105db3b8ddd40131f9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_scope_delete display_value="">09b64f21d48d4e169e20cdb46a21bd79</sys_scope_delete>
+        <sys_update_name>sys_security_acl_1beb877cc39712105db3b8ddd40131da</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_1beb877cc39712105db3b8ddd40131da">53eb877cc39712105db3b8ddd40131df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 14:00:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

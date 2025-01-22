@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="63ba3d38c31312105db3b8ddd40131de" label="Employee Onboarding" max_length="40" name="x_1589793_new_empl_employee_onboarding" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Role/Title" mandatory="true" max_length="40" name="u_role" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="u_start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Notification Status" max_length="40" name="u_notification_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Sent" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Sent" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Department Head" max_length="32" name="u_dept_head" reference="x_1589793_new_empl_department_head" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Account Status" max_length="40" name="u_acc_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Failed" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Employee Name" mandatory="true" max_length="32" name="u_emp_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assigned Equipment" max_length="40" name="u_assigned_equip" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Accounts Access" sequence="2" value="3"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="MacBook Pro" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="DSLR Camera" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Department" max_length="40" name="u_depart" type="string"/>
+        <index name="index">
+            <element name="u_dept_head"/>
+        </index>
+        <index name="index2">
+            <element name="u_emp_name"/>
+        </index>
+    </element>
+</database>

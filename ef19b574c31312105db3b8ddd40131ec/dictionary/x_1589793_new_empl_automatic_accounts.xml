@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e5c96f70c35b12105db3b8ddd401310d" label="Automatic Accounts" max_length="40" name="x_1589793_new_empl_automatic_accounts" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element label="Role/Title" max_length="40" name="role_title" type="string"/>
+        <element label="Employee Name" max_length="40" name="employee_name" type="string"/>
+    </element>
+</database>

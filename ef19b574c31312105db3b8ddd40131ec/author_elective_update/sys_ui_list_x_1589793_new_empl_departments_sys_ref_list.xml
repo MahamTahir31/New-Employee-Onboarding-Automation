@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1589793_new_empl_departments" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_dept_name</element>
+            <list_id display_value="x_1589793_new_empl_departments" element="NULL" name="x_1589793_new_empl_departments" parent="NULL" relationship="NULL" sys_domain="global" view="e88f8360dc1212104f34465061b06a3f">dabd8ffcc39712105db3b8ddd401313f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-22 12:57:09</sys_created_on>
+            <sys_id>1abd8ffcc39712105db3b8ddd4013140</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-22 12:57:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1589793_new_empl_departments</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-22 12:57:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dabd8ffcc39712105db3b8ddd401313f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1589793_new_empl_departments</sys_name>
+            <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+            <sys_update_name>sys_ui_list_x_1589793_new_empl_departments_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-22 12:57:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">e88f8360dc1212104f34465061b06a3f</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</application>
+        <file_path/>
+        <instance_id>a2ff887edb62bd50caf99027c5961903</instance_id>
+        <instance_name>dev218096</instance_name>
+        <name>sys_ui_list_x_1589793_new_empl_departments_sys_ref_list</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1589793_new_empl_departments" version="2" view="sys_ref_list"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_dept_name</element><list_id display_value="x_1589793_new_empl_departments" element="NULL" name="x_1589793_new_empl_departments" parent="NULL" relationship="NULL" sys_domain="global" view="e88f8360dc1212104f34465061b06a3f">dabd8ffcc39712105db3b8ddd401313f</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-22 12:57:09</sys_created_on><sys_id>1abd8ffcc39712105db3b8ddd4013140</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-22 12:57:09</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1589793_new_empl_departments</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-22 12:57:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dabd8ffcc39712105db3b8ddd401313f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1589793_new_empl_departments</sys_name><sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package><sys_policy/><sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope><sys_update_name>sys_ui_list_x_1589793_new_empl_departments_sys_ref_list</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-22 12:57:09</sys_updated_on><sys_user/><view display_value="Reference List" name="sys_ref_list">e88f8360dc1212104f34465061b06a3f</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1792495248</payload_hash>
+        <record_name>Departments</record_name>
+        <reverted_from/>
+        <source>9a3a3138c31312105db3b8ddd4013144</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 12:57:09</sys_created_on>
+        <sys_id>debd8ffcc39712105db3b8ddd4013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948e1689750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 12:57:09</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>d2bd8ffc98971210cae9a1e6fde23242</update_guid>
+        <update_guid_history>d2bd8ffc98971210cae9a1e6fde23242:-1792495248,f84e767c80571210c99b7d2b3497b659:1454590499,0efc3ef897571210b5b8a53a4a9d6bd9:-1719489065,945cbeb82d571210257e9ac3bb95a549:-781782843,5ebfa2f8f5171210ed435439d855d4d4:2128620930,fee3c234405312107fb2df64d655a7ce:2105464681,f5d3c234b55312103749de95b6aac26c:-1977786699,b1d38ef0a153121083595c8761394e3f:-1073244938</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 17:34:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>2f9392803fa744cbaeb4a4f61c892d31</sys_id>
+        <sys_metadata>dabd8ffcc39712105db3b8ddd401313f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1589793_new_empl_departments</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_parent display_value="">a4b18670c35312105db3b8ddd40131c6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_scope_delete display_value="">09b64f21d48d4e169e20cdb46a21bd79</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1589793_new_empl_departments_sys_ref_list</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1589793_new_empl_departments_sys_ref_list">debd8ffcc39712105db3b8ddd4013142</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 17:34:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

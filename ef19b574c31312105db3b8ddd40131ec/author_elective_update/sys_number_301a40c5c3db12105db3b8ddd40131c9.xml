@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1589793_new_empl_departments">x_1589793_new_empl_departments</category>
+        <maximum_digits>6</maximum_digits>
+        <number>1000</number>
+        <prefix>DEP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 17:20:50</sys_created_on>
+        <sys_id>301a40c5c3db12105db3b8ddd40131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEP</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_update_name>sys_number_301a40c5c3db12105db3b8ddd40131c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 17:20:50</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</application>
+        <file_path/>
+        <instance_id>a2ff887edb62bd50caf99027c5961903</instance_id>
+        <instance_name>dev218096</instance_name>
+        <name>sys_number_301a40c5c3db12105db3b8ddd40131c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1589793_new_empl_departments">x_1589793_new_empl_departments</category><maximum_digits>6</maximum_digits><number>1000</number><prefix>DEP</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-22 17:20:50</sys_created_on><sys_id>301a40c5c3db12105db3b8ddd40131c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DEP</sys_name><sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package><sys_policy/><sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope><sys_update_name>sys_number_301a40c5c3db12105db3b8ddd40131c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-22 17:20:50</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>2037377073</payload_hash>
+        <record_name>DEP</record_name>
+        <reverted_from/>
+        <source>9a3a3138c31312105db3b8ddd4013144</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 17:20:51</sys_created_on>
+        <sys_id>4d1a4c09c3db12105db3b8ddd4013186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948f07f5a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 17:20:51</sys_updated_on>
+        <type>Number</type>
+        <update_guid>411a4c09dddb1210bbc32b95f1d27586</update_guid>
+        <update_guid_history>411a4c09dddb1210bbc32b95f1d27586:2037377073</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 17:34:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>94f57b2a11bf49dc991ee07deaca0f69</sys_id>
+        <sys_metadata>301a40c5c3db12105db3b8ddd40131c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEP</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_parent display_value="">a4b18670c35312105db3b8ddd40131c6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_scope_delete display_value="">09b64f21d48d4e169e20cdb46a21bd79</sys_scope_delete>
+        <sys_update_name>sys_number_301a40c5c3db12105db3b8ddd40131c9</sys_update_name>
+        <sys_update_version display_value="sys_number_301a40c5c3db12105db3b8ddd40131c9">4d1a4c09c3db12105db3b8ddd4013186</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 17:34:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
