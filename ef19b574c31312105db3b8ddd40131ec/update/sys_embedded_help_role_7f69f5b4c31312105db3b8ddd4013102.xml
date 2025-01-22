@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1589793_new_empl.admin" name="x_1589793_new_empl.admin">f769f5b4c31312105db3b8ddd4013101</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 06:48:53</sys_created_on>
+        <sys_id>7f69f5b4c31312105db3b8ddd4013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f769f5b4c31312105db3b8ddd4013101</sys_name>
+        <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_update_name>sys_embedded_help_role_7f69f5b4c31312105db3b8ddd4013102</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 06:48:53</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
