@@ -11,16 +11,16 @@
         <name>Populate Department Field</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading && !g_form.isNewRecord()  || newValue === '' || newValue == oldValue) {
-      return;
-   }
+     if (isLoading || newValue === '' || newValue == oldValue) {
+    return;
+  }
    //Type appropriate comment here, and begin script below
 
    var getDeptName = new GlideAjax('GetDeptName');
 
    getDeptName.addParam('sysparm_name', 'getDept');
    
-   getDeptName.addParam('sysparm_user', g_form.getValue('u_dept_head'));
+   getDeptName.addParam('sysparm_userID', g_form.getValue('u_dept_head'));
 
    // Send the request to the server
    getDeptName.getXML(populateDepartmentField);
@@ -29,7 +29,7 @@
    function populateDepartmentField(response){
 	var DeptFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
 	alert(DeptFromScriptInclude); 
-	// g_form.clearValue("u_depart");
+	g_form.clearValue("u_depart");
 	g_form.setValue("u_depart", DeptFromScriptInclude);
 	
    }
@@ -41,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1d9508dc31f12105db3b8ddd401318f</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Populate Department Field</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
@@ -49,7 +49,7 @@
         <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
         <sys_update_name>sys_script_client_f1d9508dc31f12105db3b8ddd401318f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 19:17:36</sys_updated_on>
+        <sys_updated_on>2025-01-23 10:59:23</sys_updated_on>
         <table>x_1589793_new_empl_employee_onboarding</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>employee_onboarding_automation_flow</internal_name>
-        <label_cache>[{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record.u_dept","label":"1 - Update Record➛Employee Onboarding Record➛Department","reference":"x_1589793_new_empl_departments","reference_display":"Departments","type":"reference","base_type":"reference","parent_table_name":"x_1589793_new_empl_employee_onboarding","column_name":"u_dept","usedInstances":{"dc3e934e-e114-4434-afcd-e7dc5c3275c5":["role_title","department"]}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record.u_emp_name","label":"1 - Update Record➛Employee Onboarding Record➛Employee Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1589793_new_empl_employee_onboarding","column_name":"u_emp_name","usedInstances":{"dc3e934e-e114-4434-afcd-e7dc5c3275c5":["employee_name"]}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.table_name","label":"1 - Update Record➛Employee Onboarding Table","reference":"x_1589793_new_empl_employee_onboarding","reference_display":"Employee Onboarding Table","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Employee Onboarding Record","reference":"x_1589793_new_empl_employee_onboarding","reference_display":"Employee Onboarding","type":"reference","base_type":"reference","usedInstances":{"b3e027b1-a601-4264-9783-9fec8c2181c0":["record"]},"attributes":{}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Employee Onboarding Table","reference":"x_1589793_new_empl_employee_onboarding","reference_display":"Employee Onboarding","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record.u_emp_name.name","label":"1 - Update Record➛Employee Onboarding Record➛Employee Name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"dc3e934e-e114-4434-afcd-e7dc5c3275c5":["employee_name"]}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record.u_role","label":"1 - Update Record➛Employee Onboarding Record➛Role/Title","reference":"","reference_display":"Role/Title","type":"string","base_type":"string","parent_table_name":"x_1589793_new_empl_employee_onboarding","column_name":"u_role","usedInstances":{"dc3e934e-e114-4434-afcd-e7dc5c3275c5":["role_title"],"5d2ed9b1-1c8c-4da4-a9ef-744027c9fbdd":["condition"]}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record.u_dept.u_dept_name","label":"1 - Update Record➛Employee Onboarding Record➛Department➛Department","reference":"","reference_display":"Department","type":"string","base_type":"string","parent_table_name":"x_1589793_new_empl_departments","column_name":"u_dept_name","usedInstances":{"dc3e934e-e114-4434-afcd-e7dc5c3275c5":["department"],"5d2ed9b1-1c8c-4da4-a9ef-744027c9fbdd":["condition"]}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record","label":"1 - Update Record➛Employee Onboarding Record","reference":"x_1589793_new_empl_employee_onboarding","reference_display":"Employee Onboarding","type":"reference","base_type":"reference","usedInstances":{"3ea58e5a-7f55-46c9-aff8-522fe466f73e":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record","label":"1 - Update Record➛Employee Onboarding Record","reference":"x_1589793_new_empl_employee_onboarding","reference_display":"Employee Onboarding","type":"reference","base_type":"reference","usedInstances":{"3ea58e5a-7f55-46c9-aff8-522fe466f73e":["record"],"dbb033ae-e109-409d-9fc2-1d35b499ecbb":["record"],"efa5db3b-127b-41f9-a11b-57d02ec4dc2b":["record"],"dc7daca9-6906-43ef-bdc3-54ae30666e82":["record"],"1fb48197-d46b-46d3-9b83-0628bf02db75":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record.u_dept.u_dept_name","label":"1 - Update Record➛Employee Onboarding Record➛Department➛Department","reference":"","reference_display":"Department","type":"string","base_type":"string","parent_table_name":"x_1589793_new_empl_departments","column_name":"u_dept_name","usedInstances":{"dc3e934e-e114-4434-afcd-e7dc5c3275c5":["department"],"5d2ed9b1-1c8c-4da4-a9ef-744027c9fbdd":["condition"],"a418c233-d506-4689-ba5e-c1d876f1b70a":["condition"],"1a7dc0cc-2326-4cb7-9bd9-2eaf3373c157":["condition"]}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record.u_role","label":"1 - Update Record➛Employee Onboarding Record➛Role/Title","reference":"","reference_display":"Role/Title","type":"string","base_type":"string","parent_table_name":"x_1589793_new_empl_employee_onboarding","column_name":"u_role","usedInstances":{"dc3e934e-e114-4434-afcd-e7dc5c3275c5":["role_title"],"5d2ed9b1-1c8c-4da4-a9ef-744027c9fbdd":["condition"],"a418c233-d506-4689-ba5e-c1d876f1b70a":["condition"],"1a7dc0cc-2326-4cb7-9bd9-2eaf3373c157":["condition"]}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record.u_emp_name.name","label":"1 - Update Record➛Employee Onboarding Record➛Employee Name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"dc3e934e-e114-4434-afcd-e7dc5c3275c5":["employee_name"]}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Employee Onboarding Table","reference":"x_1589793_new_empl_employee_onboarding","reference_display":"Employee Onboarding","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Employee Onboarding Record","reference":"x_1589793_new_empl_employee_onboarding","reference_display":"Employee Onboarding","type":"reference","base_type":"reference","usedInstances":{"b3e027b1-a601-4264-9783-9fec8c2181c0":["record"]},"attributes":{}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.table_name","label":"1 - Update Record➛Employee Onboarding Table","reference":"x_1589793_new_empl_employee_onboarding","reference_display":"Employee Onboarding Table","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record.u_emp_name","label":"1 - Update Record➛Employee Onboarding Record➛Employee Name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1589793_new_empl_employee_onboarding","column_name":"u_emp_name","usedInstances":{"dc3e934e-e114-4434-afcd-e7dc5c3275c5":["employee_name"]}},{"name":"b3e027b1-a601-4264-9783-9fec8c2181c0.record.u_dept","label":"1 - Update Record➛Employee Onboarding Record➛Department","reference":"x_1589793_new_empl_departments","reference_display":"Departments","type":"reference","base_type":"reference","parent_table_name":"x_1589793_new_empl_employee_onboarding","column_name":"u_dept","usedInstances":{"dc3e934e-e114-4434-afcd-e7dc5c3275c5":["role_title","department"]}}]</label_cache>
         <master_snapshot>14fe0f70c3d712105db3b8ddd40131b6</master_snapshot>
         <master_snapshot_digest/>
         <name>Employee Onboarding Automation Flow</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>416c2274c31712105db3b8ddd40131c3</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Employee Onboarding Automation Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
         <sys_update_name>sys_hub_flow_416c2274c31712105db3b8ddd40131c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 15:33:39</sys_updated_on>
+        <sys_updated_on>2025-01-22 20:10:52</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -294,7 +294,29 @@
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=416c2274c31712105db3b8ddd40131c3^sys_idNOT IN73709bf0c3d712105db3b8ddd40131c0,f6ff2af8c31712105db3b8ddd401314e,fe813ff8c35b12105db3b8ddd4013173"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=416c2274c31712105db3b8ddd40131c3^sys_idNOT IN27f03489c39f12105db3b8ddd40131ab,73709bf0c3d712105db3b8ddd40131c0,a3f03489c39f12105db3b8ddd40131aa,a3f03489c39f12105db3b8ddd40131ac,f6ff2af8c31712105db3b8ddd401314e,fe813ff8c35b12105db3b8ddd4013173"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Employee Onboarding Automation Flow">416c2274c31712105db3b8ddd40131c3</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>1a7dc0cc-2326-4cb7-9bd9-2eaf3373c157</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 20:10:52</sys_created_on>
+        <sys_id>27f03489c39f12105db3b8ddd40131ab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 20:10:52</sys_updated_on>
+        <ui_id>dc7daca9-6906-43ef-bdc3-54ae30666e82</ui_id>
+        <values>H4sIAAAAAAAA/+1UTYvbMBD9K8FnJ1h2vm+FNNBDN7Ate9kuQpYmiUCWvbKcj4b8945sOZvd7W7DEiiF+mCY8cy890bPuj8EUgTToA8iIhMy5AlJkjiK4nGfpMMkJbFIGAAJwkCzDLDSAM+NwHjDVOUSh0OaQBSPUtJlw4h0+/Gw352Mxkl3sgQ+5jEZEx71mr7jETuFLAvF9nd+AGb4WiphQAfT+4cwKJhBLAsmmB5efLL7AqhiKShsnOW8ykDbzpcZzrhUR9t92wp5KcxhYCz8dCpdEj85PiQKA9hZ0AIQbslUCWGQMS2Yzc0+mFpTYcIAEwut9qeKtdS2UZqxXSl/4vx+5OqWgNK438IppH5D7XJyyWFRWJnrJmNZqtrN5arK9E0jwe0WlqxS9my3VYnzoHCUHYmG4fLbOt/etnhzqWt1nq3KOVOniFlrZFpZKN1xgIJ6KRkrCqlXtDD5RtbNSCXrrRQGvaXKt4hZypXuMe5493BBrDfH/KxO3zEjnYivOAabj7V4+lg53EaGJ0xrzbVgWh8UlpbcyMJ+wsEb8DSPoTdyOnjPAHzydN5nM5/MvKNkMJ6MJgnVsKWQFap+5XsAZJLmzAhU/drDn31RZ3Fe9DFbf3fEOjcNsUtFPWt+Q6Q39rOc9/Xgar4e/yVfe0b/mLH/ZOcofvc+Ozvp2sHlmZUrykrHCASFx0oWP6ooSkTy2rtvF37Qv+6PYRY6DUB4sZJ2wFyCEuVvpLUG9gB04wFOl/PVXEyGUf38v6OveEc//AJFvWF1bggAAA==</values>
+    </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -316,6 +338,50 @@
         <sys_updated_on>2025-01-22 15:33:39</sys_updated_on>
         <ui_id>dc3e934e-e114-4434-afcd-e7dc5c3275c5</ui_id>
         <values>H4sIAAAAAAAA/+VU24rbMBD9laBnx1h2Nre3QMlbd6Et+7LdClkeJwJZcmU5lwb/e0e+ZNNtFpZQKKV+sJnRzJlzRuN5OhGZkSWZUojuFnQqEpokcRTF8wlNp0lK4yzhABMSEM0LwEjHUwWsNQKy46r2zgOjd/PFbJEwDXsGRakYr50puJOCcSFMrV2F8ZmsSsWPj33aaogZrV5ixFaqzIImy6fngJTcYikHlixPr47csQSmeAoKob54WqP7jtZ7Jf2S/IZEX+W1z9jME4oCAgcHOgOsl3NVQUAKrjPujD2SpbM1Oizw7EGr4zliK7VDQOJjD5X8gejzyMflgNIEdGdnk/U969xia6SAh9JJoztPS6w/NKou9H0nwncbcl4rN3QbPXWFeFB6yp5Ezyj/vDX7T0PBtdStuv5QGcHV2eLOWZnWDip/H6CgQCBW8LKUesNKa3ayTUYuRbhRaIS5MnssWsmNDrnwxEPsEA/X6P/Quh+5lV7FR4TB5KZVz77Xvm6no2fMOtEYUAkrS7dCuB2cyXVOT+zittC6Etw0TTCMfgbR4s05oenLXLTTXl2MvR90c4Su0tc6ipLsdEoTiOJZSsd8GtHxJJ5OxovZPBkvchBzEdM5FVFoQeAQhbX/V9rs0L+a5ps1SNxJp27E8/kIgy3j1vnLuQ0G813/YR2z3//e/0z9jXvJd4k7GHVdC949cwPAWoLKqitDOCymvgDb9QX65UT/1HKi06h9/s6K6nj+YxvqYv1c31XN809iWvu+eQcAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Employee Onboarding Automation Flow">416c2274c31712105db3b8ddd40131c3</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>a418c233-d506-4689-ba5e-c1d876f1b70a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 20:10:52</sys_created_on>
+        <sys_id>a3f03489c39f12105db3b8ddd40131aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 20:10:52</sys_updated_on>
+        <ui_id>dbb033ae-e109-409d-9fc2-1d35b499ecbb</ui_id>
+        <values>H4sIAAAAAAAA/+1UTYvbMBD9K8FnJ1h2vm+FNNBDN7Ate9kuQpYmiUCWvbKcj4b8945sOZvd7W7DEiiF+mCY8cy890bPuj8EUgTToA8iIhMy5AlJkjiK4nGfpMMkJbFIGAAJwkCzDLDSAM+NwHjDVOUSh0OaQBSPUtJlw4h0+/Gw352Mxkl3sgQ+5jEZEx71mr7jETuFLAvF9nd+AGb4WiphQAfT+4cwKJhBLAsmmB5efLL7AqhiKShsnOW8ykDbzpcZzrhUR9t92wp5KcxhYCz8dCpdEj85PiQKA9hZ0AIQbslUCWGQMS2Yzc0+mFpTYcIAEwut9qeKtdS2UZqxXSl/4vx+5OqWgNK438IppH5D7XJyyWFRWJnrJmNZqtrN5arK9E0jwe0WlqxS9my3VYnzoHCUHYmG4fLbOt/etnhzqWt1nq3KOVOniFlrZFpZKN1xgIJ6KRkrCqlXtDD5RtbNSCXrrRQGvaXKt4hZypXuMe5493BBrDfH/KxO3zEjnYivOAabj7V4+lg53EaGJ0xrzbVgWh8UlpbcyMJ+wsEb8DSPoTdyOnjPAHzydN5nM5/MvKNkMJ6MJgnVsKWQFap+5XsAZJLmzAhU/drDn31RZ3Fe9DFbf3fEOjcNsUtFPWt+Q6Q39rOc9/Xgar4e/yVfe0b/mLH/ZOcofvc+Ozvp2sHlmZUrykrHCASFx0oWP6ooSkT82rtvF37Qv+6PYRY6DUB4sZJ2wFyCEuVvpLUG9gB04wFOl/PVXEyGUf38v6OveEc//ALvi2wZbggAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Employee Onboarding Automation Flow">416c2274c31712105db3b8ddd40131c3</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 20:10:52</sys_created_on>
+        <sys_id>a3f03489c39f12105db3b8ddd40131ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 20:10:52</sys_updated_on>
+        <ui_id>1fb48197-d46b-46d3-9b83-0628bf02db75</ui_id>
+        <values>H4sIAAAAAAAA/8VV207jMBD9FZTnpoqTtEl4W4lFQmJBYlleVsjyZQyWnAuJU+hW/PuO0/SSQgGhsvtSyRPP+Jwzczq/F56W3rEXy1TKTJFAEUICEkxISFJIgYtkmkCYeiOvYDngzRpEWUs8z5hpXWCx4BEEYcKJz6YB8eNwGvtZkkZ+pkCkAgsREYyXec/PmCl1Uxk2v+kLYETcayNrKLzj37cjr2I1vmWh9o4XO5/svAJqGAeDiSelaHMo7NHZCdb4KI9V9tWKyC4x9waeZV+dahfETw4PGXnwZKGQgK8pZhoYeTkrJLNlPV9HamDysjCbwL0u7JJpzp4a/QfrR6G7pwCpiV6F9ZH2Cq3EKbWAy8rqslhGLONmpVxp2ry4WFJw2oJirbFb2rYN1oPKYXYgbN0iIPXzvny8Wr13qouOXY/WlIKZ9YlZW2veWmhcO1p9jfKcv9oBMNAJlrOq0sUdrepyprvCCDMf3xk8jJUpHxFPo++KMROO0xjVY+NTjJ904RtWa0fwB5bB5FH/5ouWtPpXoR9aOHONlyRIoiwQfhJOIj8OBPN5KrnPeKgmcTxNp5x4z53G9KF19JZq9brQTtpOV9rNA15tRK0r+w0xzqBX43nU+yUlb81ZFG7GaqvmxjNPlEzSLMkiWsAjhbwy3U85B0AkvGS1RAFfWuV7f+nocvvS59xz7YAdXSyBfZTUIHkPyd4/g1hvn/Bg9kmD/2OfHtGB/DPowZfbZ9CRgXsE51xxyHzChfDjBFI/DVniwyQQkQqjIEjUu+55zzPx2+O1tWOK0mqlBetatnHNAVfHunXrxfE+uFXuxRDd65h7E9Rb7/QeiN72wPL/+TMbpJk3MHPdgJxpQ5fTsccXOxz2e2Rf0YFxmMJNb0FSpcFInAba5fyDdTRQHSccq60n/vyVXn+5x7Yb3oClvQDUFaCqrHPm2thx2TVhnBFIojD1s2mIJoRo4nMZRT5BUwIwUKE8xAq7/QsLltcq9AkAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
@@ -354,15 +420,67 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 15:33:39</sys_created_on>
         <sys_id>fe813ff8c35b12105db3b8ddd4013173</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 20:08:41</sys_updated_on>
+        <ui_id>3ea58e5a-7f55-46c9-aff8-522fe466f73e</ui_id>
+        <values>H4sIAAAAAAAA/+1UTYvbMBD9K8FnJ1h2vm+FNNBDN7Ate9kuQpYmiUCWvbKcj4b8945sOZvd7W7DEiiF+mCY8cy890bPuj8EUgTToA8iIhMy5AlJkjiK4nGfpMMkJbFIGAAJwkCzDLDSAM+NwHjDVOUSh0OaQBSPUtJlw4h0+/Gw352Mxkl3sgQ+5jEZEx71mr7jETuFLAvF9nd+AGb4WiphQAfT+4cwKJhBLAsmmB5efLL7AqhiKShsnOW8ykDbzpcZzrhUR9t92wp5KcxhYCz8dCpdEj85PiQKA9hZ0AIQbslUCWGQMS2Yzc0+mFpTYcIAEwut9qeKtdS2UZqxXSl/4vx+5OqWgNK438IppH5D7XJyyWFRWJnrJmNZqtrN5arK9E0jwe0WlqxS9my3VYnzoHCUHYmG4fLbOt/etnhzqWt1nq3KOVOniFlrZFpZKN1xgIJ6KRkrCqlXtDD5RtbNSCXrrRQGvaXKt4hZypXuMe5493BBrDfH/KxO3zEjnYivOAabj7V4+lg53EaGJ0xrzbVgWh8UlpbcyMJ+wsEb8DSPoTdyOnjPAHzydN5nM5/MvKNkMJ6MJgnVsKWQFap+5XsAZJLmzAhU/drDn31RZ3Fe9DFbf3fEOjcNsUtFPWt+Q6Q39rOc9/Xgar4e/yVfe0b/mLH/ZOcofvc+Ozvp2sHlmZUrykrHCASFx0oWP6ooSgR57d23Cz/oX/fHMAudBiC8WEk7YC5BifI30loDewC68QCny/lqLibDqH7+39FXvKMffgER0HutbggAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=416c2274c31712105db3b8ddd40131c3"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=416c2274c31712105db3b8ddd40131c3^sys_idNOT IN27f03489c39f12105db3b8ddd40131a9,aff03489c39f12105db3b8ddd40131aa,fa813ff8c35b12105db3b8ddd4013172"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">eff03489c39f12105db3b8ddd40131a8</block>
+        <comment/>
+        <connected_to>5d2ed9b1-1c8c-4da4-a9ef-744027c9fbdd</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Employee Onboarding Automation Flow">416c2274c31712105db3b8ddd40131c3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 20:10:52</sys_created_on>
+        <sys_id>27f03489c39f12105db3b8ddd40131a9</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 15:33:39</sys_updated_on>
-        <ui_id>3ea58e5a-7f55-46c9-aff8-522fe466f73e</ui_id>
-        <values>H4sIAAAAAAAA/+1UTYvbMBD9K8FnJ1h2vm+FNNBDN7Ate9kuQpYmiUCWvbKcj4b8945sOZvd7W7DEiiF+mCY8cyb90bPuj8EUgTToA8iIhMy5AlJkjiK4nGfpMMkJbFIGAAJwkCzDLDSAM+NwHjDVOUSh0OaQBSPUtJlw4h0+/Gw352Mxkl3sgQ+5jEZEx71mr7jETuFLAvF9nceADN8LZUwoIPp/UMYFMzgLAsmmB5efLL7AqhiKShsnOW8ykDbzpcZYlyqo+2+bYW8FOZmYCw8OpUuiZ8cHxKFAewsaAE4bslUCWGQMS2Yzc0+mFpTYcIAEwut9qeKtdS2UZqxXSl/In4/cnVLQGncb+EUUr+hdjm55LAorMx1k7EsVe3mclVl+qaR4HYLS1Ype7bbqkQ8KBxlR6JhuPy2zre37by51LU6z1blnKlTxKw1Mq0slO44QEG9lIwVhdQrWph8I+tmpJL1VgqD3lLlW5xZypXuMe5493BBrDfH/KxO3zEjnYivCIPNx1o8fazc3EaGJ0xrzbVgWh8UlpbcyMJ+QuANeJrH0Bs5HbxnAD55Ou8zzCcz7ygZjCejSUI1bClkhapf+R4AmaQ5MwJVv/bwZ1/UWZwXfczW3x2xzk1D7FJRz5rfEOmN/SznfT24mq/Hf8nXntE/Zuw/2TmK373Pzk66dnB5ZuWKstIxAkHhsZLFjyqKEvHaum/WfdC97n9hFjoNfnixjhZgLkGJ8jfCWvv6AXTjB5yu5qt5mAyj+vl/Q1/xhn74BS678cBsCAAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=416c2274c31712105db3b8ddd40131c3"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=416c2274c31712105db3b8ddd40131c3^sys_idNOT INfa813ff8c35b12105db3b8ddd4013172"/>
+        <sys_updated_on>2025-01-22 20:10:52</sys_updated_on>
+        <ui_id>a418c233-d506-4689-ba5e-c1d876f1b70a</ui_id>
+        <values>H4sIAAAAAAAA/+1VXW/aMBT9K8jPIXISSilv1apKk9ZVaqu+bF3kODdg1diZ7UAZ4r/vOk4ArVSje5g0aU+Q4/txzvW5yYboxtWNsw/60loxU2T65SkiQnkM/2+IKMmUVJRVyQVPeJaOs5TSdDJKinFWJGmZMWApiYhiC8BIrlUpnNAqb4GILJls/MGdljBgqhxcQc2MW4Byg68NpVk5uGHmGZxQMwwvha0lWz++L4vPhSwNdOwxEns7MGS6+eXIrWvIJStAYvF7Z0L6qRr7xA+9yMGnFnlbve+HuO07aVN6WgmNCLw4UCVg64pJCxFZoE7mtFnvEAOsvFVyD8yFcliO+OAXK35g7fTszAdWgBo5hMPdY96NM8B8rgWH29oTDIhjhexyuJbNQn0OOvxFQMUa6fqLQKSxWA9qT9qz6ChV93O9uusbXgvVCuwOpeZM7p6YwzEUjQPrLwYk+OvMF6yucTh5bfRStMnIZRHPJD7EldQrbOqdGTPuicc4IxZfI37Vwo/MCK/iBstgcqBZMCt43roYyzmDErbtWPLvjScUBHZS8jANDLDciNpdYp8ldKy30WkrkBwxwYH7N5siA5qeF8mQjWkyHKXj0fDifJINLyrgE54mk4TT2ABHh8RNbtD3221w+s7oaHnFZmC+vbcaSnXdT2vM15X36/V6B/8p7n/hTZAcexMcv/431j/9zfp7w564/ZTS/+t/uP7C5mGNO21t8z/e/ie/wqGDDb4pgQuLRB489rH/TvqDNRpA8ENopc2zl7DHtj8B3e3qcHEHAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6bf03489c39f12105db3b8ddd40131aa</block>
+        <comment/>
+        <connected_to>5d2ed9b1-1c8c-4da4-a9ef-744027c9fbdd</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Employee Onboarding Automation Flow">416c2274c31712105db3b8ddd40131c3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 20:10:52</sys_created_on>
+        <sys_id>aff03489c39f12105db3b8ddd40131aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 20:10:52</sys_updated_on>
+        <ui_id>1a7dc0cc-2326-4cb7-9bd9-2eaf3373c157</ui_id>
+        <values>H4sIAAAAAAAA/+1VXW/aMBT9K8jPEOWDUspbtarSpHWV2qovWxvdODdgzbEz24EyxH/fdT4AdVSje5g0aU+Q4/txzvW5yYbp2lW1sw/60loxV2z25WnIhPIY/d8wkbMZK0Ioogse8SSeJHEYxtNxlE2SLIrzBBBiNmQKSqRIrlUunNAqbYAhW4Ks/cGdljgAlQ+usALjSlRu8LUOwyQfXAsFivvgXNhKwvrxPTl8IWRusGNOcdTXoWGzzasjt64wlZChpNL3zgg1p/RT9fWJH3qBg08N8rZy349w23fSJve0onDI8MWhypFaFyAtDllJKsFps94hBiG/VXIPLIRyVI754BcrflDt+OzMBxZIGjm2h7vHtBtmC/OFFhxvK0+wRRxkssvhWtal+tzq8NeABdTS9ddASG2pHlaetGfRUSruF3p11zekK2kEdodSc5C7J3A0hqx2aP3FoER/mWkJVUXDSSujl6JJJi5lMJf0EBRSr6ipd2UA3BMPaEYQXBN+1cCPYIRXcUNlKLmlmYEVPG0cTOWcIQnbZizp99oTagV2UtJ2GhRguRGVu6Q+S+xYb4en2T86YoID5282WYJhfJ5FI5iE0WgcT8aji/NpMrookE95HE0jHgYGOTkkqFNDrt9uW593Nh/cgII5muf31iKhrvtpbPm67n6xft2+f4b3X3gDRMfeAMev/Y21j3+z9t6oJ259GIb/1/5w7YVN2/XttDXN/3jrn/zqth1s65scubBE5MFjH/tvoz9YkwEEP4RW2nzzEvbY9ie+YPpDZQcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">7e813ff8c35b12105db3b8ddd4013171</block>
@@ -381,12 +499,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-22 15:33:39</sys_created_on>
         <sys_id>fa813ff8c35b12105db3b8ddd4013172</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-22 15:33:39</sys_updated_on>
+        <sys_updated_on>2025-01-22 20:10:52</sys_updated_on>
         <ui_id>5d2ed9b1-1c8c-4da4-a9ef-744027c9fbdd</ui_id>
-        <values>H4sIAAAAAAAA/+1V32/aMBD+V5CfQ+QkQIG3al2lStsqlaovWxc5zgWsOXZmO1CG+N93zg+KNtqxaS+T9gT+7nz3fefvlB3RtatqZ+/1pbViqcj842NAhPIY/t8RkZM5KSgrohmPeBJPkpjSeDqKskmSRXGeMGAJCYhiJWAm1yoXTmiVNkBA1kzWPnCnJQyYygdXUDHjSlAOo7mwlWTbh1eT+ErI3EDHDQNY2YEh890PIbetIJUsA4m1Fs4ItcTr5yroL77pJQzeNcjL2nw/xG3fSZvc04poQODJgcoBWxdMWghIibKY02Z7QAyw/FbJZ2AlUO6cEJ/8ZMU3rB2Pxz6xANTIoQ0ejmk3vRbmKy043FaeYIs4lsnuDteyLtWHVoefOxSslq6fOyK1xXpQedKeRUepWKz05q5veC1UI7ALSs2ZPJyYwzFktQPrHwYk+NdLS1ZVOJy0MnotmsvIpQyXEg9hIfUGm3rfhYx74iHOiIXXiF818AMzwqt4j2XwckszY1bwtPEolnMGJeybsaRfa0+oFdhJSdtpYILlRlTuEvusoWO9DzqDz9i4GEd0fNoeo8kJExx5e7fLEqDxRRYN2YRGw1E8GQ1nF9NkOCuAT3kcTSNOQwMcHRLWqUGb7/efakqTfKELt2EGBm/VUigA8/l3q6FU1/00xuwr39y/umv/Bum/sftnPO5Pu3/6wV9Y+PgXC+8teua+U0r/L/zxwgubtovbaWua//G+P/qlbTvY1jc5cGGRyL3Hbvrvng9s0QCCH0Mbbb54Cc/Y/jtLltFbQQcAAA==</values>
+        <values>H4sIAAAAAAAA/+1V32/aMBD+V1CeIXISoMBbta4S0rZKLerL2kUX5wLWjJ3ZDpQh/ved84OilWrdtJdJewJ/d777vvN9yj7QlSsrZxf60lqxVMHs82M/EMpj9H8fKFhjMAu4VrlwQqu0BvrBBmTlA7daYg9U3rvCEoxbo3K9h4qxJO/NF5SXC1tK2N2/MZ2vhMwNtjwohbo5NMFs/1PI7UpMJWQoqeqdM0It6brI6VQwKKIpj3gSj5OYsXgyjLJxkkVxngBCQnndxXedrN6HGum/qtf3I9x2nbTJPa2I9QN8cqhypNYFSIv9YE0CwWmzOyIGIb9R8hlYCeWoXOCTn6z4TrXj0cgnFkgaOTbB4zFt59jAfKUFx5vSE2wQB5ls73Atq7X61OjwL4AFVNJ1L0BIZakelp60Z9FSKu5WenvbNbwWqhbYBqXmII8ncDSGrHJo/cOgRP+O6RrKkoaTlkZvRH2ZuKzDpaRDWEi9paZ+x0LgnnhIM4LwmvCrGr4HI7yKj1SGLjc0M7CCp/U+UjlnSMKhHkv6rfKEGoGtlLSZBiVYbkTpLqnPBlvWh/7LZT7Z4/0+S5DFF1k0gDGLBsN4PBxMLybJYFogn/A4mkSchQY5vXxYpYYW+XBoVvdOF24LBnvv1VIoRPPld6uRBNf+1AvXVZ4vTozy0k3/Bum/4ekpjIpRxEbnPT0cn/P0GTe/buT4F0b2q/dGHzPG/hv51MjCpo0hW2118z/28aM3bdPBNnuTIxeWiCw8Nu++XT6wowUQ/BTaavPVS3jGDj8AsyOJEwUHAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=416c2274c31712105db3b8ddd40131c3"/>
