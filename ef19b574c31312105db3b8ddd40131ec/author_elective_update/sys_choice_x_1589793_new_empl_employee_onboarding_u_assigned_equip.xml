@@ -58,7 +58,7 @@
             <element>u_assigned_equip</element>
             <hint/>
             <inactive>false</inactive>
-            <label>DSLR Camera</label>
+            <label>CRM System</label>
             <language>en</language>
             <name>x_1589793_new_empl_employee_onboarding</name>
             <sequence>1</sequence>
@@ -67,9 +67,9 @@
             <sys_created_on>2025-01-22 15:33:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-22 15:33:19</sys_updated_on>
+            <sys_updated_on>2025-01-24 14:54:15</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -128,6 +128,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-22 15:33:19</sys_updated_on>
             <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_assigned_equip</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HRM</label>
+            <language>en</language>
+            <name>x_1589793_new_empl_employee_onboarding</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-24 14:39:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-24 14:39:45</sys_updated_on>
+            <value>4</value>
         </sys_choice>
     </sys_choice>
 </record_update>

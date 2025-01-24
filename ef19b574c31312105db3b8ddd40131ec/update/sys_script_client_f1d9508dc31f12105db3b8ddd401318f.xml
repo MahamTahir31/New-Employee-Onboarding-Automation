@@ -28,7 +28,7 @@
 	// When the response is back from the server
    function populateDepartmentField(response){
 	var DeptFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
-	alert(DeptFromScriptInclude); 
+	// alert(DeptFromScriptInclude); 
 	g_form.clearValue("u_depart");
 	g_form.setValue("u_depart", DeptFromScriptInclude);
 	
@@ -41,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1d9508dc31f12105db3b8ddd401318f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Populate Department Field</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
@@ -49,7 +49,7 @@
         <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
         <sys_update_name>sys_script_client_f1d9508dc31f12105db3b8ddd401318f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 10:59:23</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:14:31</sys_updated_on>
         <table>x_1589793_new_empl_employee_onboarding</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
