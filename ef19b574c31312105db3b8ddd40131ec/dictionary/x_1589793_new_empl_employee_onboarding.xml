@@ -31,6 +31,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Department" max_length="40" name="u_depart" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Department Head Email" max_length="40" name="u_dept_head_email" type="string"/>
         <index name="index">
             <element name="u_dept_head"/>
         </index>
