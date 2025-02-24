@@ -36,7 +36,9 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear Department Head,<br><br>New Employee has been onboarded at your department.</p>]]></message_html>
+        <message_html><![CDATA[<p>Dear Department Head,<br><br>A new employee, ${u_emp_name.name}, will join the team as ${u_role} on ${u_start_date}.</p>
+<p>Their equipment has been assigned, and system accounts have been created. Please ensure readiness for their start date.</p>
+<p>Thanks.&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <messaging_channels/>
@@ -52,7 +54,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>New Employee has been onboarded.</subject>
+        <subject>New Employee Onboarding for ${u_emp_name.name}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -60,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>56b82f16c3d316105db3b8ddd40131cb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>New Employee Onboarded</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Employee Onboarding Automation" source="x_1589793_new_empl">ef19b574c31312105db3b8ddd40131ec</sys_package>
@@ -68,7 +70,7 @@
         <sys_scope display_value="New Employee Onboarding Automation">ef19b574c31312105db3b8ddd40131ec</sys_scope>
         <sys_update_name>sysevent_email_action_56b82f16c3d316105db3b8ddd40131cb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-27 07:58:42</sys_updated_on>
+        <sys_updated_on>2025-02-24 09:46:50</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
